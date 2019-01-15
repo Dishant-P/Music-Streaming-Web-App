@@ -6,8 +6,8 @@
     function config($key = "") {
         $config = array(
             // SITE DETAILS
-            "name" => "Geeto Music",
-            "url" => "http://localhost/Geeto",
+            "name" => "Music MD",
+            "url" => "http://localhost/Music-Streaming-Web-App",
             "version" => "v0.0",
 
             // PATHS FOR FOLDERS FROM index.php
