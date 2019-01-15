@@ -15,6 +15,8 @@
             "structure_path" => "structure",
             // COMPONENT STORES THE COMPONENT SPECIFIC DATA
             "components_path" => "components",
+            // RESOURCE PATH
+            "resource_path" => "components/res",
      );
 
         // isset CHECKS IT THE VALUES REQUEST IS NOT EMPTY OR FALSE TO AVOID ERROR
