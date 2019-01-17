@@ -10,12 +10,12 @@
         <script src="<?php echo siteURL() . "/" . config("structure_path") . "/main.js" ?>"></script>
     </head>
     <body class = "container" id = "wrapper">
-        <header class = "row" id = "player">
-            <section class = "twelve columns">
+        <header class = "row">
+            <section class = "twelve columns" id = "player">
                 <?php require config("components_path") . "/player.phtml"; ?>
             </section>
         </header>
-        <main class = "row" id = "main">
+        <main class = "row">
             <section class = "three columns" id = "information">
                 <?php require config("components_path") . "/information.phtml"; ?>
             </section>

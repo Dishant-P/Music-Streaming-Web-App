@@ -7,11 +7,6 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
-/* header *,footer * {
-    border: 1px solid red;
-    /* background-color: snow;
-} */
-
 html {
     height: 100%;
 }
@@ -23,42 +18,145 @@ body {
 header {
     margin-top: 1rem;
     height: 24%;
-    //border: 1px solid #000;
     box-shadow: 20px 20px 50px 15px grey;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 main {
-    height: 55%;
+    margin-top: 6rem;
+    height: 80%;
+    box-shadow: 20px 20px 50px 15px grey;
+    padding: 20px 20px 20px 20px;
 }
 
 footer {
-    height: 21%;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+    height: 10%;
+    box-shadow: 20px 20px 50px 15px grey;
+    padding: 20px 20px 20px 20px;
 }
 
-#information {
+#information, #content, #player, #foot {
     height: 100%;
 }
 
-#content {
-    height: 100%;
-}
-
-#player section {
-    height: 100%;
-}
+/*
+ * player Css And Styling
+*/
 
 #player_meta {
-    height: 55%;
+    height: 65%;
 }
 
 #player_song_meta, #player_song_meta img{
     height: 100%;
 }
 
+#player_song_meta img {
+    border: 1px solid red;
+    padding: 5px;
+}
+
 #player_controls {
-    height: 40%;
+    height: 35%;
     padding-top: 1rem;
+}
+
+#player_progress {
+    margin-top: 1.2rem;
+}
+
+/*
+ * Information Css And Styling
+*/
+
+#information_image {
+    height: 40%;
+    margin: 1.5rem 2rem 1rem;
+}
+
+#information_meta {
+    height: 50%;
+    margin: 1.5rem 2rem 1rem;
+}
+
+#information_meta * {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.4rem;
+}
+
+#information_image img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+}
+
+/*
+ * Random Spinner Css And Styling
+*/
+
+#random_spinner {
+    height: 30%;
+}
+
+#random_spinner div {
+    height: 100%;
+}
+
+/*
+ * Song Spinner Css And Styling
+*/
+
+#song_spinner {
+    margin-top: 1.8rem;
+    height: 65%;
+}
+
+#song_spinner > div {
+    height: 100%;
+}
+
+#song_spinner > div > div {
+    height: 46%;
+    margin-top: 2rem;
+}
+
+/*
+ * Spinner Element Css And Styling
+*/
+
+#spinner_element {
+    height: 100%;
+}
+
+#spinner_element_link {
+    height: 80%;
+}
+
+#spinner_element_image {
+    height: 85%;
+    width: 90%;
+    border: 1px solid red;
+}
+
+#spinner_element_song_name, #spinner_element_movie_name {
+    min-width: 81px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    height: 20%;
+    text-align: center;
+}
+
+/*
+ * Footer Css And Styling
+*/
+
+#foot p {
+    text-align: center;
+    margin-top: 2rem;
 }
 
 /* Larger than mobile */
