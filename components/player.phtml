@@ -1,1 +1,29 @@
-<p>I am Player</p>
+<div class = "row" id = "player_meta">
+    <h2 class = "four columns"><?php echo siteName(); ?></h2>
+    <div class = "row eight columns" id = "player_song_meta">
+        <img src="<?php echo config("resource_path") . "/fallback.gif" ?>" alt="" class = "three columns">
+        <div class = "nine columns">
+            <div class = "row">
+                <h6 class = "twelve columns" id = "player_song_name">Fallback Name</h6>
+            </div>
+            <div class = "row">
+                <h6 class = "offset-by-five seven columns">
+                    From ~
+                    <span id = "player_song_movie_name">Fallback Movie Name</span>
+                </h6>
+            </div>
+        </div>
+    </div>
+</div>
+<div class = "row" id = "player_controls">
+    <button type="button" class = "button-primary two columns" name="previous">prev</button>
+    <button type="button" class = "button-primary two columns" name="play">play</button>
+    <button type="button" style = "display: none;" class = "button-primary two columns" name="pause">pause</button>
+    <button type="button" class = "button-primary two columns" name="forward">next</button>
+    <audio>
+        <source id = "player_source" src="<?php echo config("resource_path") . "/naruto_flute.mp3" ?>" type="audio/mp3">
+        <source id = "player_source" src="<?php echo config("resource_path") . "/" ?>" type="audio/mp3">
+    </audio>
+    <progress id = "player_progress" class = "four columns" value="35" max="100">0%</progress>
+    <button type="button" class = "button-primary two columns" name="cancel">cancel</button>
+</div>

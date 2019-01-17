@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
         <title><?php echo pageTitle(); ?> | <?php echo siteName(); ?></title>
-        <link rel="stylesheet" href="<?php echo config("structure_path") . "/skeleton.css"; ?>">
-        <link rel="stylesheet" href="<?php echo config("structure_path") . "/normalize.css"; ?>">
-        <link rel="stylesheet" href="<?php echo config("structure_path") . "/style.css"; ?>">
+        <link rel="stylesheet" href = "<?php echo config("structure_path") . "/skeleton.css"; ?>">
+        <link rel="stylesheet" href = "<?php echo config("structure_path") . "/normalize.css"; ?>">
+        <link rel="stylesheet" href = "<?php echo config("structure_path") . "/style.css"; ?>">
         <script src="<?php echo siteURL() . "/" . config("structure_path") . "/main.js" ?>"></script>
     </head>
     <body class = "container" id = "wrapper">
